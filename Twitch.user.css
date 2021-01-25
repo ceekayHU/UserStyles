@@ -1,0 +1,247 @@
+/* ==UserStyle==
+@name           Twitch color fix (for dark mode)
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    custom userStyle for Twitch dark mode
+@author         ceekay
+@updateURL	https://raw.githubusercontent.com/ceekayhu/UserStyles/Twitch.user.css
+==/UserStyle== */
+
+
+@-moz-document domain("twitch.tv")
+{
+/* --- Default --- */
+
+  .chat-line__message:nth-child(2n)
+  {
+    background-color: #000000 !important;
+  }
+
+  .chat-list__list-footer, .tw-root--theme-dark .chat-list__list-footer, .tw-root--theme-light .chat-list__list-footer
+  {
+    background: rgba(150, 5, 5, 0.6);
+  }
+
+  .user-notice-line,
+.chat-line__status,
+.tw-c-background-base.tw-flex.tw-flex-nowrap.tw-pd-05
+  {
+    background-color: #291240 !important;
+  }
+
+  .mention-fragment
+  {
+    color: #000000 !important;
+    background-color: #aaaaaa !important;
+  }
+
+  .mention-fragment--recipient,
+.reply-line--mentioned
+  {
+    background-color: #60bbcc !important;
+    color: #ffff00 !important;
+  }
+
+  .chat-line__message--deleted-notice
+  {
+    color: #aa0000 !important;
+    background-color: #ffff00 !important;
+  }
+
+  .chat-line__message[style*="box-shadow: rgba(255, 0, 0, 0.4) 4px 0px 0px 0px inset;"],
+.chat-line__message:nth-child(2n)[style*="box-shadow: rgba(255, 0, 0, 0.4) 4px 0px 0px 0px inset;"]
+  {
+    background-color: rgba(255, 0, 0, .2) !important;
+    box-shadow: inset 6px 0 0 0 rgba(255, 0, 0, .6) !important;
+  }
+
+  .reply-line--treatment-b
+  {
+    color: #999999 !important;
+    background-color: #291240 !important;
+  }
+
+/* --- chat header --- */
+
+  .stream-chat-header.tw-align-items-center.tw-border-b.tw-c-background-base.tw-flex.tw-flex-shrink-0.tw-full-width.tw-justify-content-center.tw-pd-l-1.tw-pd-r-1
+  {
+    display: none !important;
+  }
+}
+
+@-moz-document domain("twitch.tv")
+{
+/* --- user specific --- */
+
+  .chat-line__username [data-a-user="ceekayhu"]
+  {
+    background-color: #6441a4 !important;
+    color: #22e2d7 !important;
+    border: solid #6441a4 !important;
+    border-width: 2px 4px 2px 4px !important;
+  }
+
+  .chat-line__username [data-a-user="wearethevr"]
+  {
+    background-color: #ff0000 !important;
+    color: #000000 !important;
+    border: solid #ff0000 !important;
+    border-width: 2px 4px 2px 4px !important;
+  }
+
+  .chat-line__username [data-a-user="azmo36"],
+.chat-line__username [data-a-user="dre3dd"]
+  {
+    background-color: #990000 !important;
+    color: #ffff00 !important;
+    border: solid #990000 !important;
+    border-width: 2px 4px 2px 4px !important;
+  }
+
+  .chat-line__username [data-a-user="sonziii"],
+.chat-line__username [data-a-user="cutieclaudii"]
+  {
+    background-color: #ff00aa !important;
+    color: #000000 !important;
+    border: solid #ff00aa !important;
+    border-width: 2px 4px 2px 4px !important;
+  }
+
+  .chat-line__username [data-a-user="fyrexxx"]
+  {
+    background-color: #ffff00 !important;
+    color: #000000 !important;
+    border: solid #ffff00 !important;
+    border-width: 2px 4px 2px 4px !important;
+  }
+
+  .chat-line__username [data-a-user="yeahunter"]
+  {
+    background-color: #ffffff !important;
+    color: #555555 !important;
+    border: solid #ffffff !important;
+    border-width: 2px 4px 2px 4px !important;
+  }
+
+  .chat-line__username [data-a-user="gige"],
+.chat-line__username [data-a-user="erckovibala"]
+  {
+    background-color: #9bbe5b !important;
+    color: #333333 !important;
+    border: solid #9bbe5b !important;
+    border-width: 2px 4px 2px 4px !important;
+  }
+
+  .chat-line__username [data-a-user="moobot"],
+.chat-line__username [data-a-user="streamelements"],
+.chat-line__username [data-a-user="nightbot"],
+.chat-line__username [data-a-user="klariban"],
+.chat-line__username [data-a-user="teremszolga"],
+.chat-line__username [data-a-user="yeahunterbot"]
+  {
+    background-color: #6441a4 !important;
+    color: #aaaaaa !important;
+    border: solid #6441a4 !important;
+    border-width: 2px 4px 2px 4px !important;
+  }
+
+  .chat-line__message[data-a-user="automod"]
+  {
+    color: #ffff00 !important;
+  }
+
+  .chat-line__username [data-a-user="kmatuka"]
+  {
+    background-color: #db4a3f !important;
+    color: #333333 !important;
+    border: solid #db4a3f !important;
+    border-width: 2px 4px 2px 4px !important;
+  }
+
+  .chat-line__username [data-a-user="aplimester"]
+  {
+    background-color: #9a9a9a !important;
+    color: #131313 !important;
+    border: solid #9a9a9a !important;
+    border-width: 2px 4px 2px 4px !important;
+  }
+}
+
+@-moz-document domain("twitch.tv")
+{
+/* --- mini-player --- */
+
+  .persistent-player__title
+  {
+    background-color: #402060 !important;
+    width: 56rem !important;
+  }
+
+  [style="left: 50px; position: fixed; width: 28rem; height: 15.75rem; bottom: 0px; margin: 1rem; z-index: 1000;"]
+  {
+    width: 56rem !important;
+    height: 31.5rem !important;
+  }
+
+  .persistent-player__hover-controls
+  {
+    height: 31.5rem !important;
+  }
+}
+
+@-moz-document url-prefix("https://www.twitch.tv/popout/wearethevr/chat"), url-prefix("https://www.twitch.tv/wearethevr")
+{
+  .tw-align-content-center.tw-align-items-center.tw-flex.tw-flex-row:before
+  {
+    color: #9147fb;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+    content: "WeAreTheVR";
+  }
+}
+
+@-moz-document url-prefix("https://www.twitch.tv/popout/dre3dd/chat"), url-prefix("https://www.twitch.tv/dre3dd")
+{
+  .tw-align-content-center.tw-align-items-center.tw-flex.tw-flex-row:before
+  {
+    color: #9147fb;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+    content: "Azmo aki dre3dd";
+  }
+}
+
+@-moz-document url-prefix("https://www.twitch.tv/popout/fyrexxx/chat"), url-prefix("https://www.twitch.tv/fyrexxx")
+{
+  .tw-align-content-center.tw-align-items-center.tw-flex.tw-flex-row:before
+  {
+    color: #9147fb;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+    content: "Nessaj aki Fyrexxx";
+  }
+}
+
+@-moz-document url-prefix("https://www.twitch.tv/popout/yeahunter/chat"), url-prefix("https://www.twitch.tv/yeahunter")
+{
+  .tw-align-content-center.tw-align-items-center.tw-flex.tw-flex-row:before
+  {
+    color: #9147fb;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+    content: "yeahunter";
+  }
+}
+
+@-moz-document url-prefix("https://thevr.hu/menetrend/")
+{
+  html,
+#main
+  {
+    background-color: #323643 !important;
+  }
+}
