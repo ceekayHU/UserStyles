@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Twitch color fix (for dark mode)
 @namespace      github.com/openstyles/stylus
-@version        1.0.3
+@version        1.0.4
 @description    custom userStyle for Twitch dark mode
 @author         ceekay
 @updateURL	    https://github.com/ceekayHU/UserStyles/raw/main/Twitch.user.css
@@ -75,6 +75,11 @@
   .stream-chat-header.tw-align-items-center.tw-border-b.tw-c-background-base.tw-flex.tw-flex-shrink-0.tw-full-width.tw-justify-content-center.tw-pd-l-1.tw-pd-r-1
   {
     display: none !important;
+  }
+  
+  .imgnUL
+  {
+    font-size: medium !important;
   }
 }
 
