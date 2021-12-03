@@ -61,6 +61,14 @@
     background-color: #291240 !important;
   }
 
+/* --- offline overlay --- */
+  
+  .home-carousel-info--offline-embeds
+  {
+    background-color: transparent !important;
+    color: #999999;
+  }
+  
 /* --- chat header --- */
 
   .stream-chat-header,
