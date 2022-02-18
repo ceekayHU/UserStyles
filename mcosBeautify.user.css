@@ -4,24 +4,25 @@
 @version        1.0.1
 @description    custom userStyle for Twitch dark mode
 @author         ceekay
-@updateURL      https://github.com/ceekayHU/UserStyles/raw/main/mcosBeautify.user.css
+@updateURL	    https://github.com/ceekayHU/UserStyles/raw/main/mcosBeautify.user.css
 ==/UserStyle== */
 @-moz-document domain("6.150.10.6"),
 domain("6.150.3.145") {
-    button,
-    body,
-    div,
-    li,
-    th,
-    ul,
-    a {
+    button
+   ,body
+   ,div
+   ,li
+   ,th
+   ,ul
+   ,a {
         background: none !important;
         background-image: none !important;
     }
-    .ui-menu,
-    .ui-menu-parent,
-    .ui-menu-child,
-    .popup {
+    .ui-menu
+   ,.ui-menu-parent
+   ,.ui-menu-child
+   ,.popup
+   ,.ui-dialog {
         background: #191919 !important;
     }
 }
