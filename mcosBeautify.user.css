@@ -1,12 +1,13 @@
 /* ==UserStyle==
 @name           MCOS OP Portal beautify
 @namespace      github.com/openstyles/stylus
-@version        1.0.4
+@version        1.0.5
 @description    custom userStyle for Twitch dark mode
 @author         ceekay
 @updateURL	    https://github.com/ceekayHU/UserStyles/raw/main/mcosBeautify.user.css
 ==/UserStyle== */
 @-moz-document domain("6.150.10.6"),
+               domain("6.150.10.23"),
                domain("6.150.3.153"),
                domain("6.150.3.145") {
     button
@@ -35,7 +36,8 @@
         background: #ff00ff4f !important;
     }
 }
-@-moz-document domain("6.150.10.6") {
+@-moz-document domain("6.150.10.6"),
+               domain("6.150.10.23") {
     #footer {
         background: #23d70770 !important;
     }
