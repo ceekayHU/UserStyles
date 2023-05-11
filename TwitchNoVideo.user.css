@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Twitch noVideo
 @namespace      github.com/openstyles/stylus
-@version        1.0.1
+@version        1.0.2
 @description    no Video userStyle for Twitch
 @author         ceekay
 @updateURL	    https://github.com/ceekayHU/UserStyles/raw/main/TwitchNoVideo.user.css
@@ -16,7 +16,8 @@
 
 @-moz-document url-prefix("https://www.twitch.tv/wearethevr")
 {
-    .channel-root--live
+    .channel-root--live,
+    .channel-root--watch
   {
     background-color: #4a0101 !important;
   }
