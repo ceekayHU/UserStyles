@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Twitch color fix (for dark mode)
 @namespace      github.com/openstyles/stylus
-@version        1.0.11
+@version        1.0.12
 @description    custom userStyle for Twitch dark mode
 @author         ceekay
 @updateURL	    https://github.com/ceekayHU/UserStyles/raw/main/Twitch.user.css
@@ -146,7 +146,8 @@
   .chat-line__username [data-a-user="gige"],
 .chat-line__username [data-a-user="dzsorni"],
 .chat-line__username [data-a-user="erckovibala"],
-.chat-line__username [data-a-user="csokepedro"]
+.chat-line__username [data-a-user="csokepedro"],
+.chat-line__username [data-a-user="zsolti_nwstudio"]
   {
     background-color: #9bbe5b !important;
     color: #333333 !important;
